@@ -8,7 +8,7 @@ while (m == NaN || (m - Math.floor(m) != 0)) {
 }
 let b = confirm("Чи необхідно враховувати парні значення");
 let sum = 0;
-if (b == true) {
+if (b) {
     for (let i=n; i<m+1; i++) {
         sum+=i;
     }
