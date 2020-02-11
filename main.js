@@ -1,9 +1,9 @@
 let n = +(prompt("Введіть нижнє ціле значення"));
-while (n == NaN || (n - Math.floor(n) != 0)) {
+while (n == NaN || (n - Math.floor(n) != 0) || n == "") {
     n = +(prompt("Введіть нижнє ціле значення"));
 }
 let m = +(prompt("Введіть верхнє ціле значення"));
-while (m == NaN || (m - Math.floor(m) != 0)) {
+while (m == NaN || (m - Math.floor(m) != 0) || n == "") {
     m = +(prompt("Введіть верхнє ціле значення"));
 }
 let b = confirm("Чи необхідно враховувати парні значення");
